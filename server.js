@@ -1,10 +1,10 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-const { ColombiaCovid } = require('./service/index')
+const { DepartmentService } = require('./service/department')
 const app = express();
 
-let covidData = new ColombiaCovid();
-covidData.getData();
+let covidData = new DepartmentService();
+covidData.saveDepartment();
 
 // console.log(data);
 const port = 3000;
