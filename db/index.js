@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 class DBService {
   static async connect() {
-    await mongoose.connect("mongodb://localhost:27017/fundacion-patitas");
+    await mongoose.connect("mongodb://localhost:27017/ColombiaCovid");
   }
 
   static createModel(name, schema) {

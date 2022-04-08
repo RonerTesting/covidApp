@@ -1,10 +1,10 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-const { DepartmentService } = require('./service/department')
+const { GeometryDepartmentService } = require('./service/geometryDepartment')
 const app = express();
 
-let covidData = new DepartmentService();
-covidData.saveDepartment();
+let covidData = new GeometryDepartmentService();
+covidData.saveGeometry();
 
 // console.log(data);
 const port = 3000;
