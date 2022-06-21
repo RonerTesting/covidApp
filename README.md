@@ -27,4 +27,4 @@ En la misma pagina tambien hay una **_API Publica_** que contiene los datos de c
 
 - [x] Crear un servicio que consuma los datos de __datosabiertos.esri.co__
 - [ ] Almacenar los datos en la base de datos
-- [ ] Crear un controlador para servir los datos al cliente
+- [ ] Crear un controlador para servir los datos al cliente# covidApp
