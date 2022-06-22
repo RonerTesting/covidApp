@@ -6,7 +6,6 @@ async function runCmd(cmd) {
   var resp = await child_process.exec(cmd);
   var result = resp.toString("UTF8");
 
-  var result = resp.toString("UTF8");
   resp.stdout.on("data", (data) => {
     console.log(`stdout: ${data}`);
   });
